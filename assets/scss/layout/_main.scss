@@ -1,0 +1,19 @@
+body {
+    background-color: $ligh-gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container { 
+    background-color: $white;
+	margin: 0 auto;
+    padding: 15px;
+    max-width: 275px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px -5px rgba(163,160,163,1);
+}
+.card-qr img {
+    border-radius: 10px;
+}
