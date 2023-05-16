@@ -1,12 +1,12 @@
 body {
     background-color: $ligh-gray;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.container { 
+main { 
     background-color: $white;
 	margin: 0 auto;
     padding: 15px;
@@ -14,6 +14,8 @@ body {
     border-radius: 15px;
     box-shadow: 5px 5px 20px -5px rgba(163,160,163,1);
 }
-.card-qr img {
+img {
     border-radius: 10px;
+    display: block;
+    max-width: 100%;
 }
